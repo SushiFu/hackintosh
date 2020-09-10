@@ -13,3 +13,6 @@
 [submodule "AMD_Vanilla"]
 	path = AMD_Vanilla
 	url = git@github.com:AMD-OSX/AMD_Vanilla.git
+[submodule "OCConfigCompare"]
+	path = OCConfigCompare
+	url = git@github.com:corpnewt/OCConfigCompare.git
