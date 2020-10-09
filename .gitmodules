@@ -1,18 +1,15 @@
 [submodule "GenSMBIOS"]
-	path = GenSMBIOS
-	url = git@github.com:corpnewt/GenSMBIOS.git
+path = GenSMBIOS
+url = git@github.com:corpnewt/GenSMBIOS.git
 [submodule "ProperTree"]
-	path = ProperTree
-	url = git@github.com:corpnewt/ProperTree.git
+path = ProperTree
+url = git@github.com:corpnewt/ProperTree.git
 [submodule "gibMacOS"]
-	path = gibMacOS
-	url = git@github.com:corpnewt/gibMacOS.git
+path = gibMacOS
+url = git@github.com:corpnewt/gibMacOS.git
 [submodule "MountEFI"]
-	path = MountEFI
-	url = git@github.com:corpnewt/MountEFI.git
-[submodule "AMD_Vanilla"]
-	path = AMD_Vanilla
-	url = git@github.com:AMD-OSX/AMD_Vanilla.git
+path = MountEFI
+url = git@github.com:corpnewt/MountEFI.git
 [submodule "OCConfigCompare"]
-	path = OCConfigCompare
-	url = git@github.com:corpnewt/OCConfigCompare.git
+path = OCConfigCompare
+url = git@github.com:corpnewt/OCConfigCompare.git
