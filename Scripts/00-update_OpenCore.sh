@@ -17,15 +17,15 @@ DL_URL=$(curl -s "https://api.github.com/repos/acidanthera/OpenCorePkg/releases/
 curl -sL $DL_URL -o $TMP_DST
 unzip -qo $TMP_DST -d $EXTRACT_DST
 
-cp -p $EXTRACT_DST/EFI/BOOT/BOOTx64.efi ../EFI/BOOT/
+cp -p $EXTRACT_DST/X64/EFI/BOOT/BOOTx64.efi ../EFI/BOOT/
 
-cp -p $EXTRACT_DST/EFI/OC/OpenCore.efi $OC_DIR/
+cp -p $EXTRACT_DST/X64/EFI/OC/OpenCore.efi $OC_DIR/
 
-cp -p $EXTRACT_DST/EFI/OC/Bootstrap/Bootstrap.efi $OC_DIR/Bootstrap/
+cp -p $EXTRACT_DST/X64/EFI/OC/Bootstrap/Bootstrap.efi $OC_DIR/Bootstrap/
 
-cp -p $EXTRACT_DST/EFI/OC/Drivers/OpenRuntime.efi $OC_DIR/Drivers/
+cp -p $EXTRACT_DST/X64/EFI/OC/Drivers/OpenRuntime.efi $OC_DIR/Drivers/
 
-cp -pr $EXTRACT_DST/EFI/OC/Resources $OC_DIR/Resources
+cp -pr $EXTRACT_DST/X64/EFI/OC/Resources $OC_DIR/Resources
 
-cp -p $EXTRACT_DST/EFI/OC/Tools/OpenShell.efi $OC_DIR/Tools/
-cp -p $EXTRACT_DST/EFI/OC/Tools/ResetSystem.efi $OC_DIR/Tools/
+cp -p $EXTRACT_DST/X64/EFI/OC/Tools/OpenShell.efi $OC_DIR/Tools/
+cp -p $EXTRACT_DST/X64/EFI/OC/Tools/ResetSystem.efi $OC_DIR/Tools/
