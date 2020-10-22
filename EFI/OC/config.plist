@@ -193,7 +193,15 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AACbPg==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -595,7 +603,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -777,7 +785,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 npci=0x2000 alcid=1 agdpmod=pikera</string>
+				<string>-v debug=0x100 keepsyms=1 npci=0x2000 alcid=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -846,7 +854,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02030104J9PHCD1F</string>
+			<string>C02001609QXPHCD8C</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -856,9 +864,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02D4ZY7PN5T</string>
+			<string>C02C2AYSPN5T</string>
 			<key>SystemUUID</key>
-			<string>6B1E6274-9B41-41A9-BC60-382F05FDB514</string>
+			<string>2D9A83F6-BB0B-4682-911D-EEEE7F593468</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
